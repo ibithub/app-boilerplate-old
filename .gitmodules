@@ -1,6 +1,4 @@
-[submodule "[unit-tests/cmocka]"]
-	path = [unit-tests/cmocka]
+[submodule "unit-tests/cmocka"]
+	path = unit-tests/cmocka
 	url = https://git.cryptomilk.org/projects/cmocka.git
-[submodule "cmocka"]
-	path = cmocka
-	url = https://git.cryptomilk.org/projects/cmocka.git
+
