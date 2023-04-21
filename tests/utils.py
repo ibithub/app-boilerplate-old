@@ -7,7 +7,7 @@ from ecdsa.keys import VerifyingKey
 from ecdsa.util import sigdecode_der
 
 
-ROOT_SCREENSHOT_PATH = Path(__file__).parent.resolve()
+ROOT_SCREENSHOT_PATH = /home/ubuntu/Desktop/app-boilerplate/tests
 
 
 # Check if a signature of a given message is valid
