@@ -37,7 +37,7 @@ void ui_menu_main(void) {
 // 'About' menu
 
 static const char* const INFO_TYPES[] = {"Version", "Developer"};
-static const char* const INFO_CONTENTS[] = {APPVERSION, "Ledger"};
+static const char* const INFO_CONTENTS[] = {APPVERSION, "iBitHub Developers"};
 
 static bool nav_callback(uint8_t page, nbgl_pageContent_t* content) {
     UNUSED(page);
