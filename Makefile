@@ -21,13 +21,8 @@ endif
 
 include $(BOLOS_SDK)/Makefile.defines
 
-APP_LOAD_PARAMS  = --curve secp256k1
-ifeq ($(TARGET_NAME),$(filter $(TARGET_NAME),TARGET_NANOX TARGET_STAX))
-APP_LOAD_PARAMS += --appFlags 0x240  # APPLICATION_FLAG_BOLOS_SETTINGS
-else
-APP_LOAD_PARAMS += --appFlags 0x240
-endif
-APP_LOAD_PARAMS += --path "44'/438'"   # purpose=coin(44) / coin_type=Testnet(1)
+APP_LOAD_PARAMS  =  --path "44'/438'" --curve secp256k1
+APP_LOAD_PARAMS += --appFlags 0x240  # APPLICATION_FLAG_BOLOS_SETTINGS & global pin
 APP_LOAD_PARAMS += $(COMMON_LOAD_PARAMS)
 
 APPNAME      = "iBitHub"
