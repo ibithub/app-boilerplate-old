@@ -134,6 +134,6 @@ include $(BOLOS_SDK)/Makefile.rules
 # available variants and then call `make -j <VARIANT_PARAM>=<VALUE>` for each
 # <VALUE> in <VARIANT_VALUES>.
 VARIANT_PARAM = COIN
-VARIANT_VALUES = BOL
+VARIANT_VALUES = iBitHub
 listvariants:
 	@echo VARIANTS $(VARIANT_PARAM) $(VARIANT_VALUES)
